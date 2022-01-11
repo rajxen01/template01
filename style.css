@@ -1,0 +1,86 @@
+/* Common CSS  */
+
+.main-body{
+    width: 1080px;
+    margin: 0 auto;    
+}
+h1, h2{
+    margin:0;
+    padding:0;
+}
+
+.vl{
+    height: 98px;
+    border-left: 5px solid #FF5959;
+    position: absolute;
+    top: 22%;
+    left: -2%;
+}
+
+.h1Colx, .h2Colx{
+    font-size: 44px;
+    font-family: inherit;
+    font-weight: 600;
+}
+.h1Colx{
+    color: #333333 !important;
+}
+.h2Colx{
+    color: #FFAD5A;
+}
+
+.fsp{
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.bte{
+    text-decoration: none;
+    background: #FF5959;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 5px;
+}
+
+.hpb{
+    margin: 25px 0;
+}
+
+.head_img img{
+    width: 395px;
+    height: auto;
+}
+
+.secone{}
+
+.head_body{ 
+    display: flex;
+    position: relative;
+}
+
+.head_text{
+    margin-top: 10%;
+}
+.btn-exp{
+    margin-top: 8%;
+}
+
+.hpb p{
+    font-size: 17px;
+    color: #3E3E3E;
+}
+
+
+/*  Second section area start.  */
+.sectwo{
+   
+}
+
+/*  Second section area End.  */
+
+/* General image resize */ 
+
+
+
