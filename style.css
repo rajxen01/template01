@@ -9,6 +9,66 @@ h1, h2{
     padding:0;
 }
 
+/* Common CSS End */ 
+
+
+/* Multiple CSS Start */
+
+#secone,
+#sectwo{
+    display: block;
+    overflow: hidden;
+}
+
+#sectwo{
+    margin: 50px 0px;
+}
+
+.head_body,
+.miss_box{ 
+    display: flex;
+}
+
+.head_body{
+    margin:0 auto;
+    position: relative;
+ }
+
+.h1Colx, .h2Colx{
+    font-size: 44px;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.miss_box1 img,
+.miss_box2 img,
+.miss_box3 img{
+    width: 156px;
+    height: 155px;
+}
+
+.miss_box1,
+.miss_box2,
+.miss_box3 {
+    margin: 0 10px;
+    border-radius: 15px;
+    padding: 0px 25px;
+}
+
+.miss_box1 p,
+.miss_box2 p, 
+.miss_box3 p{
+    font-family: Poppins;
+}
+
+.miss_box1 h1,
+.miss_box2 h1, 
+.miss_box3 h1{
+    font-family: tahoma;
+}
+
+/* Multiple CSS End */
+
 .vl{
     height: 98px;
     border-left: 5px solid #FF5959;
@@ -17,11 +77,7 @@ h1, h2{
     left: -2%;
 }
 
-.h1Colx, .h2Colx{
-    font-size: 44px;
-    font-family: inherit;
-    font-weight: 600;
-}
+
 .h1Colx{
     color: #333333 !important;
 }
@@ -53,13 +109,6 @@ h1, h2{
     height: auto;
 }
 
-.secone{}
-
-.head_body{ 
-    display: flex;
-    position: relative;
-}
-
 .head_text{
     margin-top: 10%;
 }
@@ -68,14 +117,28 @@ h1, h2{
 }
 
 .hpb p{
-    font-size: 17px;
+    font-size: 19px;
     color: #3E3E3E;
 }
 
 
 /*  Second section area start.  */
-.sectwo{
-   
+.hma{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: tahoma;
+    margin-bottom: 38px;
+}
+
+.miss_box1{
+   background-color:#4f9da61f;
+}
+.miss_box2{
+  background-color: #ff595924;
+}
+.miss_box3{
+    background: #FFF4D6;
 }
 
 /*  Second section area End.  */
