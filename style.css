@@ -1,5 +1,8 @@
 /* Common CSS  */
-
+body{
+    margin: 0;
+    padding: 0;
+}
 .main-body{
     width: 1080px;
     margin: 0 auto;    
@@ -12,20 +15,99 @@ h1, h2{
 /* Common CSS End */ 
 
 
+/* Background image Effect start  */
+
+.background-effect,
+.Combackground-effect,
+.Appbackground-effect{
+    position: relative;
+}
+
+.devbg-img{
+    background-image: url(img/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    position: absolute;
+    z-index: -1;
+    left: -119px;
+    top: 297px;
+    width: 350px;
+    height: 350px;
+}
+
+.combg-img{
+    background-image: url(img/Ellipse_34.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    position: absolute;
+    z-index: -1;
+    left: 403px;
+    top: 220px;
+    width: 350px;
+    height: 350px;
+    transform: rotate(-21deg);
+}
+
+.Appbg-img1{
+    background-image: url(img/Rectangle_21.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    position: absolute;
+    z-index: -1;
+    left: -37px;
+    top: -1px;
+    width: 350px;
+    height: 350px;
+}
+.Appbg-img2{
+    background-image: url(img/Rectangle_21.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    position: absolute;
+    z-index: -1;
+    left: -61px;
+    top: 380px;
+    width: 350px;
+    height: 350px;
+}
+
+.Appbg-img3{
+    background-image: url(img/Rectangle_21.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    position: absolute;
+    z-index: -1;
+    left: -414px;
+    top: 531px;
+    width: 350px;
+    height: 350px;
+}
+
+/*  Background image End */
+
+
+
 /* Multiple CSS Start */
 
 #secone,
-#sectwo{
+#sectwo,
+#secthree,
+#secfour{
     display: block;
     overflow: hidden;
 }
 
-#sectwo{
+#sectwo,
+#secfour,
+.app_boxAre {
     margin: 50px 0px;
 }
 
 .head_body,
-.miss_box{ 
+.miss_box,
+.devlop_ara,
+.communicate_ara,
+.app_boxAre{ 
     display: flex;
 }
 
@@ -66,6 +148,63 @@ h1, h2{
 .miss_box3 h1{
     font-family: tahoma;
 }
+  
+.bte,
+.devbun,
+.comdev,
+.apbon{
+    text-decoration: none;
+    background: #FF5959;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 5px;
+}
+
+.devlop_ara{
+    margin: 90px 0px;
+}
+
+
+.dev_img img,
+.head_img img,
+.app_img img{
+    width: 360px;
+    height: auto;
+}
+
+.devh1,
+.apph1{
+    font-size: 35px;
+    font-weight: 800;
+    font-family: tahoma;
+}
+
+.dev_text p{
+    font-size: 18px;
+    width: 501px;
+    text-align: justify;
+}
+
+.comm_text p,
+.app_text p{
+    font-size: 18px;
+    width: 425px;
+    text-align: justify;
+}
+.hma,
+.hap {
+    text-align: center;
+}
+
+.hma,
+.hap,
+.aph {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: tahoma;
+    margin-bottom: 38px;
+}
+
 
 /* Multiple CSS End */
 
@@ -78,9 +217,11 @@ h1, h2{
 }
 
 
-.h1Colx{
+.h1Colx,
+.devh1{
     color: #333333 !important;
 }
+
 .h2Colx{
     color: #FFAD5A;
 }
@@ -92,14 +233,6 @@ h1, h2{
     line-height: 23px;
 }
 
-.bte{
-    text-decoration: none;
-    background: #FF5959;
-    color: #fff;
-    padding: 12px 28px;
-    border-radius: 5px;
-}
-
 .hpb{
     margin: 25px 0;
 }
@@ -109,7 +242,8 @@ h1, h2{
     height: auto;
 }
 
-.head_text{
+.head_text,
+.app_text{
     margin-top: 10%;
 }
 .btn-exp{
@@ -123,13 +257,6 @@ h1, h2{
 
 
 /*  Second section area start.  */
-.hma{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-    font-family: tahoma;
-    margin-bottom: 38px;
-}
 
 .miss_box1{
    background-color:#4f9da61f;
@@ -143,7 +270,47 @@ h1, h2{
 
 /*  Second section area End.  */
 
-/* General image resize */ 
+
+/* Third section area start */
+
+.dev_text{
+    margin-left: 6%;
+}
+
+.comm_text{
+    width: 520px;
+}
+
+/* Third section area End */
+
+/* Four section area start */
+/* Four section area End */
 
 
+/* Five section area start */
+.app_text{
+    margin-left: 15%;
+}
+/* Five section area End */
 
+
+/* Footer area start  */
+.footer_ara{
+    background: #000;
+    padding: 55px 5px;
+}
+
+.main_footer{
+    text-align: center;
+    color: #fff;
+}
+
+.main_footer h1{
+    font-family: tahoma;
+    font-weight: 800;
+}
+.main_footer p{
+    color: #D9DBE1;
+    font-size: 12px;
+}
+/* Footer area End  */
